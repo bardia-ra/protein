@@ -171,6 +171,14 @@
         height: 90%;
         mix-blend-mode: multiply;
     }
+    #shop-img{
+        width: 75% !important;
+        height: 55% !important;
+    }
+    #pig-img{
+        width: 50% !important;
+        height: 55% !important;
+    }
     .side-category-card h3{
         color: #ff0000;
     }
