@@ -58,6 +58,8 @@
     .main-background{
         height: 700px !important;
     }
-    
+    #main-btn{
+        width: 320px;
+    }
     
 }
