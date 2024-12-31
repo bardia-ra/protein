@@ -4,7 +4,7 @@
     --dark-text:#333;
     --gray-color:#727272;
 }
-@media(max-width:992px){
+@media(max-width:1280px){
     .nav-item{
         display: none;
     }
@@ -70,18 +70,18 @@
         z-index: 99999;
         align-items: center;
         overflow: auto;
-        animation: side-nav-animation .7s ease-in-out;
+        /* animation: side-nav-animation .7s ease-in-out; */
         display: none;
     }
     .side-nav.active{
         display: flex;
     }
-    @keyframes side-nav-animation {
+    /* @keyframes side-nav-animation {
         from{
             left: -100%;
             opacity: 0;
         }
-    }
+    } */
     .side-top{
         height: 120px;
         width: 100%;
