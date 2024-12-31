@@ -130,6 +130,9 @@ main{
     position: relative;
     top: 140px;
 }
+main.active{
+    display: none;
+}
 .main-page{
     width: 100%;
     height: 700px;
@@ -197,4 +200,12 @@ main{
     background-color: var(--back-color);
     color: var(--black-color);
     border: 1px solid var(--black-color);
+}
+.side-nav{
+    display: none;
+}
+.ss{
+    height: 1000px;
+    width: 100%;
+    background-color: #000;
 }

@@ -1,3 +1,9 @@
+:root{
+    --back-color:#fff;
+    --black-color:#000;
+    --dark-text:#333;
+    --gray-color:#727272;
+}
 @media(max-width:992px){
     .nav-item{
         display: none;
