@@ -1,0 +1,27 @@
+@media(max-width:992px){
+    .nav-item{
+        display: none;
+    }
+    .nav-right{
+        right: 20px;
+    }
+    .nav-left{
+        left: 20px;
+    }
+    .nav-bar{
+        font-size: 22px;
+        display: block;
+    }
+    .close-bar{
+        display: none;
+    }
+    .header-close{
+        display: none;
+    }
+    .header-text{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+}
