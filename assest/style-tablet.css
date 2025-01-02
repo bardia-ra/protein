@@ -10,9 +10,14 @@
     }
     .nav-right{
         right: 20px;
+        top: 25px;
     }
     .nav-left{
         left: 20px;
+        top: 25px;
+    }
+    .nav-center{
+        top: 20px;
     }
     .nav-bar{
         font-size: 22px;
@@ -261,5 +266,110 @@
     }
     .category-item:hover .category-text i{
         display: block;
+    }
+    .sub-container{
+        width: 90%;
+    }
+    .sub-mid{
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .sub-top{
+        width: 90%;
+    }
+    .sub-text-1{
+        top: 0;
+        right: 0;
+    }
+    .sub-text-2{
+        top: 50px;
+        right: 70px;
+    }
+    .sub-right{
+        font-size: 45px;
+        width: 100%;
+        height: 140px;
+    }
+    .sub-left{
+        /* font-size: 30px; */
+        width: 70%;
+        /* height: 140px; */
+    }
+    .cheers-container{
+        width: 100%;
+        top: -45px;
+    }
+    .cheers-container img{
+        width: 55%;
+    }
+    .cheers-container h1{
+        font-size: 32px;
+    }
+    .check-parent{
+        width: 90%;
+        gap: 0;
+    }
+    .check-top{
+        width: 100%;
+        top: 60px;
+    }
+    .check-mid img{
+        display: none;
+    }
+    .check-mid{
+        font-size: 44px;
+        width: 100%;
+        height: 150px;
+    }
+    .check-card{
+        width: 33%;
+        /* border-bottom: 1px solid #c1c1c1 !important; */
+    }
+    .check-card-top{
+        border-bottom: none;
+    }
+    .check-card-left{
+        border-left: none;
+    }
+    .check-card-center{
+        border-right: none;
+        border-left: none;
+    }
+    /* .check-card-mobile-border{
+        border-left: 1px solid #c1c1c1;
+    } */
+    footer{
+        flex-direction: column;
+        top: 110px;
+        height: auto;
+     }
+     .footer-left{
+         width: 100%;
+         height: 300px;
+         gap: 20px;
+     }
+     .footer-left h1{
+         font-size: 28px;
+     }
+     .footer-left img{
+         display: none;
+     }
+     .footer-right{
+         width: 100%;
+     }
+     /* .footer-input{
+         width: 0%;
+     } */
+     .footer-top{
+        display: flex;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .footer-bt-left{
+        padding: 0;
+        padding-right: 20%;
+    }
+    .footer-bottom{
+        margin-bottom: 30px;
     }
 }

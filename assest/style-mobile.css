@@ -14,9 +14,14 @@
     }
     .nav-right{
         right: 20px;
+        top: 20px !important;
     }
     .nav-left{
         left: 20px;
+        top: 20px !important;
+    }
+    .nav-center{
+        top: 12px !important;
     }
     .nav-bar{
         font-size: 22px;
@@ -281,4 +286,197 @@
     .category-item:hover .category-text i{
         display: block;
     }
+    .sub-container{
+        width: 90%;
+    }
+    .sub-mid{
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .sub-text-1{
+        top: 0;
+        right: 0;
+    }
+    .sub-text-2{
+        top: 50px;
+        right: 70px;
+    }
+    .sub-right{
+        font-size: 45px;
+        width: 100%;
+        height: 140px;
+    }
+    .sub-left{
+        /* font-size: 30px; */
+        width: 100%;
+        /* height: 140px; */
+    }
+    .cheers-container{
+        width: 100%;
+        top: -45px;
+    }
+    .cheers-container img{
+        width: 55%;
+    }
+    .cheers-container h1{
+        font-size: 32px;
+    }
+    .check-parent{
+        width: 90%;
+        gap: 0;
+    }
+    .check-top{
+        width: 100%;
+        top: 60px;
+    }
+    .check-mid img{
+        display: none;
+    }
+    .check-mid{
+        font-size: 44px;
+        width: 100%;
+        height: 150px;
+    }
+    .check-card{
+        width: 50% !important;
+        /* border-bottom: 1px solid #c1c1c1 !important; */
+    }
+    .check-card-top{
+        border-bottom: none;
+    }
+    .check-card-left{
+        border-left: none;
+    }
+    .check-card-center{
+        border-right: none;
+        border-left: none;
+    }
+    /* .check-card-mobile-border{
+        border-left: 1px solid #c1c1c1;
+    } */
+    .taco-parent{
+        height: 300px;
+    }
+    .taco-mid{
+        font-size: 25px !important;
+    }
+    .taco-btn{
+        font-size: 16px;
+    }
+    footer{
+       flex-direction: column;
+       height: 700px !important;
+       top: 90px !important;
+    }
+    .footer-left{
+        width: 100%;
+        height: 250px !important;
+        gap: 20px;
+    }
+    .footer-left h1{
+        font-size: 24px !important;
+    }
+    .footer-left img{
+        display: none;
+    }
+    .footer-right{
+        width: 100%;
+    }
+    .footer-input{
+        width: 90%;
+    }
+    .footer-right{
+        width: 100%;
+    }
+    .footer-top{
+        display: none !important;
+    }
+    .footer-top-mb{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        /* height: 200px; */
+        padding: 50px 0;
+        gap: 20px;
+    }
+    .footer-card-mb{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .footer-card-mb i{
+        font-size: 10px;
+    }
+    .menha{
+        display: none;
+    }
+    .menha.active{
+        display: block;
+    }
+    .jam.active{
+        display: none;
+    }
+    .footer-card-top-mb{
+        display: flex;
+        /* width: 100%; */
+        gap: 10px;
+        align-items: center;
+        flex-direction: row;
+    }
+    .footer-card-bottom-mb{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        display: none;
+    }
+    .footer-card-bottom-mb a{
+        color: var(--gray-color);
+    }
+    .footer-card-bottom-mb.active{
+        display: flex;
+    }
+    .footer-bottom{
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        
+    }
+    .footer-bt-right{
+        flex-direction: column;
+        width: 90%;
+        /* padding: 0; */
+    }
+    .footer-bt-top{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        
+    }
+    .footer-bt-top i{
+        font-size: 30px;
+    }
+    .footer-bt-bottom{
+        text-align: center;
+    }
+    .footer-bt-left i{
+        font-size: 30px;
+        
+    }
+    .footer-bt-left{
+        width: 90%;
+        justify-content: center;
+        padding:  0 !important;
+        padding-right: 30px !important;
+        margin: 0;
+        /* padding-left: 130px; */
+    }
+    
 }
