@@ -46,3 +46,29 @@ document.querySelector('.sherkat-drop').addEventListener('click', ()=>{
     document.querySelector('.sherkat-jam').classList.toggle('active');
     document.querySelector('.sherkat-menha').classList.toggle('active');
 })
+
+document.querySelector('.nav-icon').addEventListener('click', ()=>{
+    document.querySelector('.cart-container').classList.add('active');
+    document.querySelector('main').classList.add('blur');
+    document.querySelector('nav').classList.add('blur');
+    document.querySelector('header').classList.add('blur');
+    document.querySelector('footer').classList.add('blur');
+})
+document.querySelector('.cart-close').addEventListener('click',()=>{
+    document.querySelector('.cart-container').classList.remove('active');
+    document.querySelector('main').classList.remove('blur');
+    document.querySelector('nav').classList.remove('blur');
+    document.querySelector('header').classList.remove('blur');
+    document.querySelector('footer').classList.remove('blur');
+})
+document.addEventListener('click',(e)=>{
+    let cart=document.querySelector('.cart-container');
+    let icon=document.querySelector('.nav-icon');
+    if(!cart.contains(e.target) && !icon.contains(e.target)){
+        document.querySelector('.cart-container').classList.remove('active');
+        document.querySelector('nav').classList.remove('blur');
+        document.querySelector('main').classList.remove('blur');
+        document.querySelector('header').classList.remove('blur');
+        document.querySelector('footer').classList.remove('blur');
+    }
+})
