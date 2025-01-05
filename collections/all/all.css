@@ -500,11 +500,11 @@ main.active{
     background-color: var(--back-color);
     box-shadow: -1px 1px 27px -11px rgba(120,120,120,1);
   }
-  .box-card:hover{
-    /* animation: none; */
-    box-shadow: none;
-    /* top: 0; */
-  }
+  /* .box-card:hover{
+    /* animation: none;
+    /* box-shadow: none;
+    /* top: 0;
+  } */
   #to-cart{
     display: block;
   }
@@ -557,11 +557,11 @@ main.active{
     background-color: var(--back-color);
     box-shadow: -1px 1px 27px -11px rgba(120,120,120,1);
   }
-  .box-card:hover{
-    /* animation: none; */
+  /* .box-card:hover{
+    /* animation: none; 
     box-shadow: none;
-    /* top: 0; */
-  }
+    /* top: 0; 
+  } */
   #to-cart{
     display: block;
   }
